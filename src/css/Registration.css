@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+}
+
+/* Add styles to the Background*/
+.bg-container {
+  background-image: url("../assets/bg-image.jpg");
+  height: fit-content;
+}
+
+/* Add styles to the form container */
+.container {
+  display: inline-block;
+  margin: 30px 424px 30px;
+  max-width: 500px;
+  padding: 20px 27px;
+  background-color: white;
+  border-radius: 15px;
+  border-top: 8px solid #f18e5f;
+}
+/* Add styles to the Heading*/
+.heading {
+  padding-left: 92px;
+}
+/* Add styles to the icons*/
+.icon-user {
+  position: absolute;
+  color: rgb(12, 12, 12);
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+/* Add styles to the Input */
+
+.input-box {
+  width: 445px;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #34333362;
+}
+
+.input-textarea {
+  width: 445px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #34333362;
+}
+.input-txt {
+  padding-left: 35px;
+  color: #7c6a6a;
+}
+.input-text {
+  padding-left: 18px;
+  color: #7c6a6a;
+}
+/* Add styles to the Radio Button*/
+.input-label{
+  padding: 0px 5px 0px 5px;
+  color: #7c6a6a;
+}
+/* Add styles to the Button*/
+.btn-submit {
+  margin-left: 377px;
+  height: 40px;
+  width: 67px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+}
+/* Add Hover */
+.input-box:hover, .input-textarea:hover, .btn-submit:hover{
+  box-shadow: 2px 2px 3px #555;
+}
